@@ -6,6 +6,15 @@ This is a full-stack portfolio web application built with a React frontend and E
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+- **January 13, 2025**: Successfully migrated portfolio project from Bolt to Replit environment
+  - All dependencies properly configured for Replit
+  - Verified full-stack application runs correctly on port 5000
+  - Portfolio website displays all sections (Hero, About, Experience, Projects, Skills, Contact)
+  - Dark/light theme functionality working
+  - Smooth scrolling navigation operational
+
 ## System Architecture
 
 The application follows a monorepo structure with clear separation between client, server, and shared code:
