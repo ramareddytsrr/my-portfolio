@@ -8,7 +8,7 @@ interface FooterProps {
 }
 
 export const Footer: React.FC<FooterProps> = ({ contact, name }) => (
-  <footer className="bg-gray-900/50 dark:bg-black/50 text-center py-6">
+  <footer className="bg-gray-900/50 dark:bg-black/50 text-center py-8 mt-8">
     <div className="container mx-auto text-gray-500">
       <SocialLinks contact={contact} />
       <p className="mt-4 text-sm">
