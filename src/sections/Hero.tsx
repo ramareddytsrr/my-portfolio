@@ -8,7 +8,7 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ name, headline, missionStatement }) => (
-  <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden pb-8">
+  <section id="home" className="h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
     <div className="absolute inset-0 bg-gray-900 dark:bg-black z-0">
       <div className="absolute inset-0 opacity-10 dark:opacity-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900 via-transparent to-transparent"></div>
     </div>
@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ name, headline, missionStatement }) 
         initial={{ opacity: 0, y: -20 }} 
         animate={{ opacity: 1, y: 0 }} 
         transition={{ duration: 0.8, delay: 0.4 }}
-        className="text-xl md:text-2xl font-light text-blue-300 dark:text-blue-400 mt-2"
+        className="text-xl md:text-2xl font-light text-blue-300 dark:text-blue-400 mt-1"
       >
         {headline}
       </motion.h2>
@@ -33,7 +33,7 @@ export const Hero: React.FC<HeroProps> = ({ name, headline, missionStatement }) 
         initial={{ opacity: 0, y: 20 }} 
         animate={{ opacity: 1, y: 0 }} 
         transition={{ duration: 0.8, delay: 0.6 }}
-        className="max-w-2xl mx-auto mt-6 text-base md:text-lg text-gray-300 dark:text-gray-400"
+        className="max-w-2xl mx-auto mt-4 text-base md:text-lg text-gray-300 dark:text-gray-400"
       >
         {missionStatement}
       </motion.p>
@@ -41,7 +41,7 @@ export const Hero: React.FC<HeroProps> = ({ name, headline, missionStatement }) 
         initial={{ opacity: 0, y: 20 }} 
         animate={{ opacity: 1, y: 0 }} 
         transition={{ duration: 0.8, delay: 0.8 }}
-        className="mt-10 flex flex-wrap justify-center gap-4"
+        className="mt-6 flex flex-wrap justify-center gap-4"
       >
         <a 
           href="#experience" 
