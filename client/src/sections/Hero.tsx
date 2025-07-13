@@ -8,7 +8,7 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ name, headline, missionStatement }) => (
-<section id="home" className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 relative overflow-hidden pt-20">
+<section id="home" className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 relative overflow-hidden pt-20">
     <div className="absolute inset-0 bg-gray-900 dark:bg-black z-0">
       <div className="absolute inset-0 opacity-10 dark:opacity-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900 via-transparent to-transparent"></div>
     </div>
