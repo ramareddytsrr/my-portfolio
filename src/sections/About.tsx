@@ -6,7 +6,7 @@ interface AboutProps {
 }
 
 export const About: React.FC<AboutProps> = ({ summary }) => (
-  <Section id="about" className="-mt-16">
+  <Section id="about" className="pt-8">
     <div className="w-full text-white">
       <h2 className="text-4xl font-bold mb-4 text-center">About Me</h2>
       <div className="w-20 h-1 bg-blue-500 mx-auto mb-12"></div>
